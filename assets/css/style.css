@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+.issi-wrap {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.issi-wrap:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	background-image: url("../images/bg-issi.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.issi-slider {
+	max-width: 50%;
+	backdrop-filter: blur(10px);
+}
+
+.issi-slider .slick-list {
+	box-shadow: 5px 20px 30px rgba(0,0,0,.5);
+}
+
+.issi-slider .slick-content {
+	background: rgba(30,5,5,.8);
+	padding: 0 30px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	color: #f9f9f9;
+}
+
+.issi-slider .slick-content h2 {
+	font-family: "Carnivalee Freakshow";
+	font-size: 3em;
+	margin: .5em;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.issi-slider .slick-content p {
+	text-align: justify;
+	margin-bottom: .3em;
+}
+
+/* Bolineas */
+/*.slick-dots li button {
+	background: transparent;
+	outline: 1px solid #c1c1c1;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #6f3c29!important;
+}*/
+
+/* Quadradineos */
+.slick-dots li,
+.slick-dots li button {
+	width: 40px!important;
+	height: 5px!important;
+}
+
+.slick-dots li {
+	margin: 0 3px!important;
+}
+
+.slick-dots li button {
+	border: 2px solid #f9f9f9!important;
+	background: #6f3c29!important;
+}
+
+/* Padrão */
+.slick-dots li.slick-active button {
+	background: #3b150c!important;
+}
+
+.slick-dots li button:before {
+	color: transparent!important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+	content: '⸸'!important;
+	font-size: 25px;
+}
+
+@media screen and ( max-width: 767px ) {
+	.issi-slider {
+		max-width: 95%;
+	}
+
+	.issi-slider .slick-content {
+		padding: 0 20px;
+		height: 650px;
+    flex-wrap: nowrap;
+	}
+
+	.issi-slider .slick-content h2 {
+		font-size: 1.5em;
+	}
+
+}
