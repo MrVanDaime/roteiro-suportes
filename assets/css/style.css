@@ -113,13 +113,14 @@
 
 	.issi-slider .slick-content {
 		padding: 0 20px;
-		height: 450px;
+		height: 466px;
 		flex-wrap: nowrap;
 	}
 
 	.issi-slider .slick-content p {
-		font-size: .8em;
+		font-size: .9em;
 	}
+
 	.issi-slider .slick-content h2 {
 		font-size: 1.5em;
 	}
