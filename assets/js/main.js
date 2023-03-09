@@ -15,7 +15,6 @@ $( document ).ready( function(){
 				settings: {
 					arrows: false,
 					draggable: false,
-					touchMove: true,
 				}
 			},
 		],
