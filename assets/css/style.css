@@ -65,6 +65,7 @@
 .issi-slider .slick-content p {
 	text-align: justify;
 	margin-bottom: .3em;
+	text-indent: 20px;
 }
 
 /* Bolineas */
@@ -127,6 +128,6 @@
 	}
 
 	.issi-slider .slick-content h2 {
-		font-size: 1.5em;
+		font-size: 1.66em;
 	}
 }
