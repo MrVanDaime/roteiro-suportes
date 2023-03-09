@@ -7,6 +7,7 @@ $( document ).ready( function(){
 		dots: true,
 		centerMode: false,
 		draggable: true,
+		swipeToSlide: true,
 		responsive: [
 			{
 				breakpoint: 767,
