@@ -8,6 +8,7 @@ $( document ).ready( function(){
 		centerMode: false,
 		draggable: true,
 		swipeToSlide: true,
+		touchThreshold: 100,
 		responsive: [
 			{
 				breakpoint: 767,
