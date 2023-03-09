@@ -14,6 +14,7 @@ $( document ).ready( function(){
 				breakpoint: 767,
 				settings: {
 					arrows: false,
+					draggable: false,
 				}
 			},
 		],
