@@ -5,6 +5,11 @@
 	font-family: "Open Sans";
 }
 
+@font-face {
+	font-family: "Carnivalee Freakshow";
+	src: url("../fonts/Carnevalee_Freakshow.ttf");
+}
+
 .issi-wrap {
 	position: relative;
 	display: flex;
