@@ -131,3 +131,10 @@
 		font-size: 1.66em;
 	}
 }
+
+@media screen and ( max-width: 767px ) and ( orientation: landscape )  {
+	.issi-slider .slick-content {
+		padding: 0 20px;
+		height: 310px;
+	}
+}
